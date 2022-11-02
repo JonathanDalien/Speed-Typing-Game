@@ -1,13 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html,
 body {
+  background: black;
+  color: #00b800;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  padding-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-weight: 400;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #a80020;
+  background: #00b800;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+textarea {
+  font-family: 'Press Start 2P', cursive;
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #00b800;
+  padding: 10px;
+}
+
+textarea:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.setTimeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setTimeDiv input {
+  background-color: greenyellow;
+  font-family: 'Press Start 2P', cursive;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+
+}
+
+.setTimeDiv input:disabled {
+  background-color: gray;
+  cursor: not-allowed;
 }
