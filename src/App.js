@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <h1>Wie schnell kannst du tippen?</h1>
+      <h1>Wie schnell kannst du?</h1>
       <div className="setTimeDiv">
         <label htmlFor="time">Set Time</label>
         <input disabled={isGame}
