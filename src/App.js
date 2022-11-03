@@ -30,7 +30,7 @@ function App() {
     <div>
       <h1>Wie schnell kannst du tippen?</h1>
       <div className="setTimeDiv">
-        <label htmlFor="time">Set Time</label>
+        <label htmlFor="time">Zeit einstellen</label>
         <input disabled={isGame}
           onChange={(e) => setTime(e.target.value)} type="text"></input>
       </div>
@@ -39,12 +39,12 @@ function App() {
         disabled={!isGame}
         value={text}
         onChange={handleChange} />
-      <h4>Time remaining: {timeRemaining}sec</h4>
+      <h4>Verbleibende Zeit: {timeRemaining}sec</h4>
       <button
         onClick={handleClick}>
-        {isGame ? "Reset" : "Start Game"}
+        {isGame ? "Reset" : "Spiel starten"}
       </button>
-      <h1>{`${count} Words Count`}</h1>
+      <h1>{`${count} Wörter gezählt`}</h1>
     </div>
   );
 }
